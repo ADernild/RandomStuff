@@ -45,6 +45,8 @@ function equal()    {
 
 function c()    {
     document.form.tv.value = "";
+    lastCall = [];
+    num2 = -1;
 }
 
 function back() {
