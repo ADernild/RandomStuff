@@ -1,0 +1,42 @@
+/* Style.css */
+@charset "UTF-8";
+
+*    {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.button    {
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    background: #586e91;
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.30);
+}
+
+.textview    {
+    width: 217;
+    margin: 5;
+    font-size: 25;
+    padding: 5;
+    border: none;
+    color: #586e91;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.30);
+}
+
+.main    {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bg    {
+    background: linear-gradient(to right, #e66465, #9198e5);
+    height: 100%;
+}
