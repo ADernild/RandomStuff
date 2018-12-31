@@ -1,5 +1,3 @@
-var rst, counter, insert, equal, c, back;
-
 var lastCall = []; //Array for keeping old input
 var num1 = 0;
 var num2 = -1;
@@ -32,7 +30,7 @@ function insert(num)    {
 
 function equal()    {
     var tvValue = document.form.tv.value;
-    
+
     if(tvValue) {
         document.form.tv.value = eval(tvValue)
         lastCall.unshift(document.form.tv.value);
@@ -40,7 +38,7 @@ function equal()    {
         limit();
         rst();
     }
-    
+
 }
 
 function c()    {
@@ -52,5 +50,5 @@ function c()    {
 function back() {
     counter();
     document.form.tv.value = lastCall[max(num1, min1, num2)];
-    
+
 }
